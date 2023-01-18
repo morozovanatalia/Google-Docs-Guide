@@ -1,0 +1,56 @@
+site_name: Google Docs guide
+site_author: Natalia Morozova
+
+nav:
+  - Overview: index.md
+  - Creating a document: src/creating-a-document.md
+  - Downloading the document: src/dowloading-the-document.md
+  - Printing the document: src/printing-the-document.md
+  - Managing access: src/managing-access.md
+  - Managing page settings: src/managing-page-settings.md
+  - Formatting the text: src/formatting-the-text.md
+  - Inserting different types of content: src/inserting-content.md
+  - Managing add-ons: src/managing-add-ons.md
+      
+
+theme:
+  name: material
+  logo: 'src/img/logo.png'
+  favicon: 'src/img/favicon.png'
+  feature:
+    tabs: false
+  language: 'en'
+  font:
+    text: Manrope
+  palette:
+    primary: white
+    
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - admonition
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.extra
+  - pymdownx.snippets:
+      base_path: docs/src
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+      options:
+        custom_icons:
+          - overrides/.icons
+  - pymdownx.tabbed:
+      alternate_style: true
+
+    
+plugins:
+  - search
+
+extra_css:
+  - 'stylesheets/extra-page-content.css'
+  - 'https://use.fontawesome.com/releases/v5.7.0/css/all.css'
+  - 'https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css'
