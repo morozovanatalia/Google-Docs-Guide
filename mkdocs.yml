@@ -24,6 +24,8 @@ theme:
     text: Manrope
   palette:
     primary: white
+  features:
+    - navigation.footer
     
 
 markdown_extensions:
