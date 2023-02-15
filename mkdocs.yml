@@ -17,8 +17,6 @@ theme:
   name: material
   logo: 'src/img/logo.png'
   favicon: 'src/img/favicon.png'
-  feature:
-    tabs: false
   language: 'en'
   font:
     text: Manrope
@@ -26,6 +24,9 @@ theme:
     primary: white
   features:
     - navigation.footer
+    - navigation.top
+    - toc.integrate
+    - search.suggest
     
 
 markdown_extensions:
@@ -56,3 +57,12 @@ extra_css:
   - 'stylesheets/extra-page-content.css'
   - 'https://use.fontawesome.com/releases/v5.7.0/css/all.css'
   - 'https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css'
+
+extra:
+  social:
+    - icon: fontawesome/brands/linkedin 
+      link: https://www.linkedin.com/in/morozovanatalia/
+    - icon: fontawesome/brands/github 
+      link: https://github.com/morozovanatalia
+
+copyright: Copyright &copy; 2022 - 2023 Natalia Morozova

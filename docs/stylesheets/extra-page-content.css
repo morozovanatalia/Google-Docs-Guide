@@ -3,6 +3,11 @@ html {
   overflow-y: scroll;
 }
 
+/*Content width */
+.md-grid {
+  max-width: 1100px; 
+}
+
 /* --------------------------
 Headers */
 
